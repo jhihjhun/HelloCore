@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloCore", "HelloCore\HelloCore.csproj", "{F93F7AD8-7C75-4023-AF36-E0383209E463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloCore", "HelloCore\HelloCore.csproj", "{F93F7AD8-7C75-4023-AF36-E0383209E463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreLibrary", "NetCoreLibrary\NetCoreLibrary.csproj", "{329DE595-3FC6-4344-8161-5B6F74AEDEFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreLibrary", "NetCoreLibrary\NetCoreLibrary.csproj", "{329DE595-3FC6-4344-8161-5B6F74AEDEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUnitTestProject", "LibUnitTestProject\LibUnitTestProject.csproj", "{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{329DE595-3FC6-4344-8161-5B6F74AEDEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{329DE595-3FC6-4344-8161-5B6F74AEDEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{329DE595-3FC6-4344-8161-5B6F74AEDEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
