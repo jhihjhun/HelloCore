@@ -1,4 +1,5 @@
 ﻿using System;
+using NetCoreLibrary;
 
 namespace HelloCore
 {
@@ -7,6 +8,9 @@ namespace HelloCore
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            Lib lib = new Lib();
+            Console.WriteLine(lib.RtnOK());
         }
     }
 }
