@@ -8,6 +8,16 @@ namespace LibUnitTestProject
         [TestMethod]
         public void TestMethod1()
         {
+            // Arrange
+            var lib = new NetCoreLibrary.Lib();
+
+            // Acr
+            var actual = lib.RtnOK();
+
+            var expected = "OK";
+
+            // Assert
+            Assert.AreEqual(expected, actual);
         }
     }
 }
