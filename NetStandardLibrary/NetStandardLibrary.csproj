@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl></PackageProjectUrl>
+    <Authors>Jed</Authors>
+    <Description>測試用，人生第一個套件</Description>
+    <PackageReleaseNotes>Release Note</PackageReleaseNotes>
+    <PackageTags>Tool</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/jhihjhun/HelloCore</RepositoryUrl>
+    <Copyright>CopyRight (c) 2018 by Jed</Copyright>
   </PropertyGroup>
 
 </Project>
