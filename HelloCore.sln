@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloCore", "HelloCore\Hell
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreLibrary", "NetCoreLibrary\NetCoreLibrary.csproj", "{329DE595-3FC6-4344-8161-5B6F74AEDEFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUnitTestProject", "LibUnitTestProject\LibUnitTestProject.csproj", "{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibUnitTestProject", "LibUnitTestProject\LibUnitTestProject.csproj", "{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetStandardLibrary", "NetStandardLibrary\NetStandardLibrary.csproj", "{C76ABCD8-B699-461D-B28A-26EFDC88064F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E5C692E-7BF4-4DDF-A7D6-F9F97864D2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76ABCD8-B699-461D-B28A-26EFDC88064F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76ABCD8-B699-461D-B28A-26EFDC88064F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76ABCD8-B699-461D-B28A-26EFDC88064F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76ABCD8-B699-461D-B28A-26EFDC88064F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
